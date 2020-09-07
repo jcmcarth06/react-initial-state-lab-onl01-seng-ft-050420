@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class ImageSlider extends Component {
 
   state = {
-    currentSlideIndex === 0
+    currentSlideIndex = 0
   };
 
   render() {
