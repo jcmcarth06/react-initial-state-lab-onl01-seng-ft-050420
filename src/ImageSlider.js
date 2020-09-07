@@ -3,13 +3,13 @@ import React, { Component } from 'react'
 class ImageSlider extends Component {
 
   state = {
-    currentSlideInxed = 0
+    currentSlideIndex === 0
   };
 
   render() {
     return `I am on slide ${this.state.currentSlideIndex}`
   };
-  
+
 };
 
 export default ImageSlider;
