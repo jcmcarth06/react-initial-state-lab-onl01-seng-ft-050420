@@ -15,7 +15,7 @@ class Bomb extends Component {
       return `${this.state.secondsLeft} seconds left before I go boom!`
     }
   };
-  
+
 };
 
 export default Bomb;
